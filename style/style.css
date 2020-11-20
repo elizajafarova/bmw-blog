@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+}
+
+body #page {
+  background-color: black;
+}
+
+body #page header {
+  width: 100%;
+  height: auto;
+  padding-top: 2em;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body #page header .row {
+  margin: 0;
+}
+
+body #page header .row .left {
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #page header .row .left nav {
+  width: 80%;
+  margin-left: 10em;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  body #page header .row .left nav {
+    margin-left: 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  body #page header .row .left nav {
+    font-size: 10px;
+    font-size: 0.625rem;
+  }
+}
+
+body #page header .row .left nav ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  body #page header .row .left nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 17px;
+  }
+}
+
+body #page header .row .left nav ul li a {
+  text-decoration: none;
+  color: #d3c7c7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  body #page header .row .left nav ul li a {
+    margin-right: 7px;
+  }
+}
+
+body #page header .row .left nav ul li a:hover {
+  color: #181bcf;
+  opacity: 0.8;
+}
+
+body #page header .row .right {
+  width: 20%;
+}
+
+body #page header .row .right img {
+  height: 45px;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 767px) {
+  body #page header .row .right img {
+    width: 75%;
+  }
+}
+
+body #page main {
+  font-family: "Space Grotesk", sans-serif;
+  width: 100%;
+}
+
+body #page main .main-div .image {
+  width: 100%;
+  height: 600px;
+  background: url(../img/bmw-530e-m-sport-and-520i-luxury-02.jpg);
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body #page main .main-div .image .text {
+  width: 25%;
+  margin-left: 20px;
+  color: white;
+  text-align: start;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body #page main .main-div .image .text:hover {
+  color: #1241a7;
+}
+
+body #page main .body-div {
+  width: 100%;
+}
+
+body #page main .body-div .card {
+  margin-top: 3em;
+  background-color: black;
+  font-size: 20px;
+}
+
+body #page main .body-div .card .row {
+  width: 100%;
+}
+
+body #page main .body-div .card .row .card-img {
+  margin-left: 2em;
+}
+
+@media (max-width: 767px) {
+  body #page main .body-div .card .row .card-img {
+    margin-left: 0;
+  }
+}
+
+body #page main .body-div .card .row .rt {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  body #page main .body-div .card .row .rt {
+    font-size: 23px;
+  }
+}
+
+body #page main .body-div .card .row .rt .card-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body #page main .body-div .card .row .rt .card-body:hover {
+  color: #6ca0e4;
+}
+
+body #page main .body-div .card .row .rt .card-body .pp {
+  text-align: center;
+  width: 40%;
+}
+
+body #page main .body-div .card .row .rt .card-body img {
+  margin-left: 5em;
+}
+
+@media (max-width: 767px) {
+  body #page main .body-div .card .row .rt .card-body img {
+    margin-left: 3em;
+  }
+}
+
+body #page main .footer {
+  width: 100%;
+}
+
+body #page main .footer .card {
+  margin-top: 3em;
+  background-color: black;
+}
+
+body #page main .footer .card .row .lt {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+body #page main .footer .card .row .lt .card-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body #page main .footer .card .row .lt .card-body:hover {
+  color: #595c61;
+}
+
+body #page main .footer .card .row .lt .row .horizantal {
+  width: 20px;
+  border: 3px solid #ee420e;
+}
+
+body #page main .horizantal2 {
+  margin-top: 3em;
+  border: 0.5px solid #928e8e;
+}
+
+body #page main .as-well {
+  color: #d1cbcb;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  body #page main .the-end {
+    height: 243px;
+  }
+}
+
+body #page main .the-end #carouselExampleFade {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  body #page main .the-end #carouselExampleFade .carousel-inner {
+    max-height: 240px;
+  }
+}
+
+body #page main .the-end #carouselExampleFade .carousel-item {
+  height: 700px;
+  margin-top: 2em;
+}
+
+body #page footer .footer2 h1 {
+  padding: 1em;
+  color: #ddd4d4;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
